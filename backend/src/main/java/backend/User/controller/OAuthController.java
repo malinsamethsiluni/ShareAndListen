@@ -44,6 +44,7 @@ public class OAuthController {
                 new IllegalStateException("User not found despite existence check"));
         }
 
+        
         String redirectUrl = String.format(
             "http://localhost:3000/oauth2/success?userID=%s&name=%s&googleProfileImage=%s",
             user.getId().toString(),
