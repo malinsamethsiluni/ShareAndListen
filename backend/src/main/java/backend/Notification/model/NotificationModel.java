@@ -63,3 +63,4 @@ public class NotificationModel {
         this.createdAt = createdAt;
     }
 }
+
