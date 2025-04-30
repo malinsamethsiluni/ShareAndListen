@@ -11,3 +11,4 @@ public interface NotificationRepository extends MongoRepository<NotificationMode
     List<NotificationModel> findByUserId(String userId);
     void deleteByUserId(String userId);
 }
+
