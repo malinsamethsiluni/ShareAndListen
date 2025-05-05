@@ -9,9 +9,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.view.RedirectView;
 
+
 import java.util.Map;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
+
 
 @RestController
 public class OAuthController {
@@ -43,6 +45,7 @@ public class OAuthController {
                 new IllegalStateException("User not found despite existence check"));
         }
 
+        
         String redirectUrl = String.format(
             "http://localhost:3000/oauth2/success?userID=%s&name=%s&googleProfileImage=%s",
             user.getId().toString(),
