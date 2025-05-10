@@ -72,6 +72,7 @@ public class LearningProgressController {
         learningProgressRepository.deleteById(id);
     }
 
+    
     @GetMapping("/learningprogress/images/{filename:.+}")
     public ResponseEntity<Resource> getImage(@PathVariable String filename) {
         try {
