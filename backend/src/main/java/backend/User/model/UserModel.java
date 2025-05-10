@@ -9,6 +9,7 @@ import java.util.Set;
 
 @Document(collection = "user")
 public class UserModel {
+    
     @Id
     @GeneratedValue
     private String id;
