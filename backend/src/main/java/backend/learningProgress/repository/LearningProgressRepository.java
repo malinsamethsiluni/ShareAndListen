@@ -1,5 +1,4 @@
 package backend.learningProgress.repository;
-
 import backend.learningProgress.model.LearningProgressModel;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
