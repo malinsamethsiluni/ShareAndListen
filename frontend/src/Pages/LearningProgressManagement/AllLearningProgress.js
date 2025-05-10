@@ -6,7 +6,6 @@ import { IoIosCreate } from "react-icons/io";
 import { BsFillGridFill, BsListUl } from "react-icons/bs";
 import Modal from 'react-modal';
 
-
 Modal.setAppElement('#root');
 
 function AllLearningProgress() {
