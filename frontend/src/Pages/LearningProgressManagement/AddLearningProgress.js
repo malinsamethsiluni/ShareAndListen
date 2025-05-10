@@ -19,6 +19,7 @@ function AddLearningProgress() {
     setImagePreview(file ? URL.createObjectURL(file) : null);
   };
 
+  
   useEffect(() => {
     const userId = localStorage.getItem('userID');
     if (userId) {
